@@ -45,7 +45,7 @@
     <div class="content">
       <!-- Grid Starts -->
         <div class="section-grid"> 
-          <article class="section-left">
+          <article class="section-wide">
             <p class="top-heading">Context</p>
             <h2>Existing design of a list view was not helpful for in-trip travelers.</h2>
           </article>
@@ -72,7 +72,7 @@
     <div class="content">
       <!-- Grid Starts -->
         <div class="section-grid"> 
-          <article class="section-left">
+          <article class="section-wide">
             <p class="top-heading">Hypothesis</p>
             <h2>Travelers will buy more when they can see what's near them</h2>
           </article>
@@ -105,23 +105,24 @@
     <div class="content">
       <!-- Grid Starts -->
         <div class="section-grid"> 
-          <article class="section-left">
+          <article class="section-wide">
             <p class="top-heading">Stakeholders & Role</p>
             <h2>A remote squad team in 3 time zones</h2>
           </article>
 
+
           <div class="section-left">
+            <p>I was part of a squad team, spread across Australia, India, and USA, comprising a Product Manager, a TPM, and Software Developers, and myself as a UX Designer.</p>
             <img  src="images/Finding-Nearby-Activities/03-1-Stakeholders.png">
             <p class="small">Cross-skill remote teams in 3 time zones.</p>
           </div>
 
           <article class="section-right"> 
-            <p>I was part of a squad team, spread across Australia, India, and USA, comprising a Product Manager, a TPM, and Software Developers, and myself as a UX Designer.</p>
             <p>Outside of the squad, we had the advantage of seeking help from a User Researcher, a Content Strategist, and a Data Scientist.</p>
             <p class="space"></p>
 
             <div class="highlight highlight-first">
-              <p class="thick">As a UX Designer, I was responsible for</p>
+              <div class="thick">As a UX Designer, I was responsible for</div>
               <ul class="bullet-items">
                 <li>Understanding the business case and the user need.</li>
                 <li>Studying how competitors had tried to solve this need.</li>
@@ -139,9 +140,9 @@
     <div class="content">
       <!-- Grid Starts -->
         <div class="section-grid"> 
-          <article class="section-left">
+          <article class="section-wide">
             <p class="top-heading">Data driven process</p>
-            <h2>Both quantitative and qualitative data was used to make design decisions.</h2>
+            <h2>Design decisions based on quantitative and qualitative data.</h2>
           </article>
 
           <article class="section-left"> 
@@ -171,7 +172,7 @@
     <div class="content">
       <!-- Grid Starts -->
         <div class="section-grid"> 
-          <article class="section-left">
+          <article class="section-wide">
             <p class="top-heading">Competitive Analysis</p>
             <h2>A study was done by UX Research team.</h2>
           </article>
@@ -182,16 +183,16 @@
 
           <div class="section-left">
             <img src="images/Finding-Nearby-Activities/05-1-Competitor-Screens.png">
-            <p class="small">How competitors had solved this user need?</p>
+            <p class="small">A study on how competitors had solved this user need.</p>
             
           </div>
 
           <div class="section-right">
             <img  src="images/Finding-Nearby-Activities/05-2-Competitor-Study.png">
-            <p class="small">Illustration for Competitive Study</p>
+            <p class="small">Illustration for competitive study</p>
           </div>
 
-          <article class="section-center"> 
+          <article class="section-large"> 
             <div class="highlight highlight-first">
               <p class="thick">I studied the findings to learn -</p>
             <ol class="number-items">
@@ -201,7 +202,7 @@
               <li>How was the user data used?</li>
               <li>How other product details were handled?</li>
             </ol>
-            <ul class="bullet-items" style="padding-left:40px;">
+            <ul class="bullet-items" style="padding-left:40px; margin-top: -1rem;">
               <li>Placement</li>
               <li>Layout</li>
               <li>Content on map card</li>
@@ -217,7 +218,7 @@
     <div class="content">
       <!-- Grid Starts -->
         <div class="section-grid"> 
-          <article class="section-left">
+          <article class="section-wide">
             <p class="top-heading">MVP</p>
             <h2>Will travelers use Maps and find them usable?</h2>
           </article>
@@ -269,15 +270,16 @@
     <div class="content">
       <!-- Grid Starts -->
         <div class="section-grid"> 
-          <article class="section-left">
+          <article class="section-wide">
             <p class="top-heading">Issues in development</p>
             <h2>The curious case of an 'Unbreakable Pin'</h2>
           </article>
 
           <article class="section-left"> 
-            <p>I took over the designs made by the previous designer on the team. These were similar to the designs done by the Hotels team and used a cluster pin behavior. When a user would tap on a cluster pin, it would break down into multiple pins at a zoomed-in level. 
+            <p>I took over the designs made by the previous designer on the team. These were similar to the designs done by the Hotels team and used a cluster pin behavior.</p>
+            <p>When a user would tap on a cluster pin, it would break down into multiple pins at a zoomed-in level. 
             </p>
-            <p>The cluster pin was a component within the company-wide design system, Universal Design System (UDS).
+            <p>The cluster pin was a component within the company-wide design system.
             </p>
           </article>
 
@@ -294,7 +296,6 @@
                 <li>There were a lot of zoom issues.</li>
                 <li>Some cluster pins wouldn't break further.</li>
               </ol>
-              <div>While developers focused on the first problem, I focused on handling the unbreakable pin.</div> 
             </div>
             
             
@@ -304,6 +305,7 @@
             </p>
             <p>Hotels team did not face this issue as there is only one hotel at a location. It was not the case with activities.
             </p>
+           
           </article>
 
           <div class="section-right">
@@ -314,15 +316,13 @@
 
           <article class="section-center">
             <div class="highlight">
-            <!-- <p class="thick">How did I solve it?</p> -->
-            <p>To solve for this interaction problem, I sketched out and then detailed, a few possible options: 
-            </p>
-            <ol class="number-items">
+              <div>To solve for this interaction problem, I sketched out and then detailed, a few possible options: </div>
+            <!-- <ol class="number-items">
               <li>A bottom sheet with 1-2 cards, which scrolls over the map as a list view with other cards.</li>
               <li>Bottom sheet for pins with single activity, and a carousel for pins with multiple activities.</li>
               <li>A horizontal carousel for all kinds of pins.</li>
               <li>A carousel with an option to see as a list.</li>
-            </ol>
+            </ol> -->
           </div>
           </article>
 
@@ -351,8 +351,9 @@
 
           <article class="section-left"> 
             <p class="space"></p>
-            <p>Since this was close to launch, we agreed to use (#3) a horizontal carousel for all pins, as it was available in the design system, and could be readily used by developers. Other options were not in the design system and needed more development time. 
-            <p>Interestingly, post launch analytics showed that most users did not go past 3 cards, and in a user study done by the UXR team, users requested to see a list view after first few cards. So option (#4) was what users needed.</p> 
+            <p>Since this was close to launch, we agreed to use option (#3) a horizontal carousel for all pins, as it was available in the design system, and could be readily used by developers. Other options were not in the design system and needed more development time. 
+            <p>Interestingly, post launch analytics showed that most users did not go past 3 cards.</p> 
+            <p>And in a user study done by the UXR team, users requested to see a list view after first few cards. So option (#4) was what users needed.</p>
           </article>
 
           <article class="section-right"> 
@@ -369,13 +370,13 @@
     <div class="content">
       <!-- Grid Starts -->
         <div class="section-grid"> 
-          <article class="section-left">
+          <article class="section-wide">
             <p class="top-heading">Launch of MVP</p>
             <h2>We launched with a positive impact.</h2>
           </article>
 
           <article class="section-left"> 
-            <p>Though the engagement with the map button was low (~3%), the conversion was nearly double for Map users (~8%) than the List view users (~4%).</p>
+            <p>Though the engagement with the map button was low (~3%), the conversion was nearly double for map users (~8%) than the list view users (~4%).</p>
           </article>
 
           <article class="section-right"> 
@@ -401,7 +402,7 @@
     <div class="content">
       <!-- Grid Starts -->
         <div class="section-grid"> 
-          <article class="section-left">
+          <article class="section-wide">
             <p class="top-heading">Learnings from MVP</p>
             <h2>Insights for further enhancements</h2>
           </article>
@@ -423,7 +424,7 @@
     <div class="content">
       <!-- Grid Starts -->
         <div class="section-grid"> 
-          <article class="section-left">
+          <article class="section-wide">
             <p class="top-heading">Enhancement #1</p>
             <h2>Making maps more discoverable</h2>
           </article>
@@ -431,9 +432,11 @@
           <article class="section-left"> 
             <p>To increase prominence of Map on Search Results page, we added a mini-map above the search listings.
             </p>
+          </article>
+
+          <article class="section-right"> 
             <p>In case users would not tap on Map and would scroll down, I proposed using a slim card which would appear when a user scrolls down. Here we wanted to show the benefits of using a map view.
-            </p>
-            <p class="space"></p>
+            </p> 
           </article>
 
           <div class="section-wide">
@@ -448,7 +451,7 @@
     <div class="content">
       <!-- Grid Starts -->
         <div class="section-grid"> 
-          <article class="section-left">
+          <article class="section-wide">
             <p class="top-heading">Enhancement #2</p>
             <h2>Making maps more engaging</h2>
           </article>
@@ -481,7 +484,7 @@
     <div class="content">
       <!-- Grid Starts -->
         <div class="section-grid"> 
-          <article class="section-left">
+          <article class="section-wide">
             <p class="top-heading">Enhancement #3</p>
             <h2>Narrow down on activity choices</h2>
           </article>
@@ -532,7 +535,7 @@
     <div class="content">
       <!-- Grid Starts -->
         <div class="section-grid"> 
-          <article class="section-left">
+          <article class="section-wide">
             <p class="top-heading">Enhancement #4</p>
             <h2>Show distance on map card</h2>
           </article>
@@ -570,10 +573,11 @@
 
           <article class="section-left-narrow"> 
             <div class="highlight">
-              <p>Re-designed the map card by exploring different variations - </p>
+              <div>Re-designed the map card by - </div>
               <ul class="bullet-items" style="padding-left:0px;">
+                <li>exploring different variations to reduce card height</li>
                 <li>keeping in mind the hierarchy of the elements</li>
-                <li>trying language translations which led to longer text</li>
+                <li>trying translations in languages which could lead to longer text</li>
               </ul>
             </div>
           </article>
@@ -594,7 +598,7 @@
     <div class="content">
       <!-- Grid Starts -->
         <div class="section-grid"> 
-          <article class="section-left">
+          <article class="section-wide">
             <p class="top-heading">Enhancement #5</p>
             <h2>Distinguish between activity pins</h2>
           </article>
@@ -625,14 +629,12 @@
     <div class="content">
       <!-- Grid Starts -->
       <div class="section-grid"> 
-        <article class="section-left">
+        <article class="section-wide">
           <h2>Learnings</h2>
         </article>
-       
-
-        <div class="section-left">
+        <div class="section-left-wide">
           <article class="highlight highlight-first">
-            <p class="thick">The learnings were -</p>
+            <div class="thick">The learnings were -</div>
             <ul class="bullet-items">
               <li>Importance of user studies along with AB testing to build user-centric products.</li>
               <li>Need to over-communicate across teams to create a cohesive experience.</li>
