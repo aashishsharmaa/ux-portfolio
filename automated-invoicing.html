@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Poppins:400,500,600">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Merriweather:400,500,600">
+<link rel="stylesheet" href="style.css">
+<title>Ashish Sharma Portfolio</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="./index.html" class="logo">Ashish Sharma</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./case-studies.html">Case Studies</a></li>
+      <li><a href="./resume.html">Resume</a></li>
+    </ul>
+  </header>
+
+
+  <main class="container">
+
+
+    <div class="content">
+      <!-- Grid Starts -->
+        <div class="section-grid"> 
+          <article class="section-wide">
+            <p class="small-heading">Case Study 02 / Amazon, Payee Central, 2017-2018</p>
+            <h1>Automated invoicing for high volume payees</h1>
+            <p>A self-service interface for high volume payees so that they can receive their payments faster, at less cost and effort.</p>
+            <p class="space"></p>
+            <img src="images/Automating-Invoicing/00-Hero.png" width="100%">
+          </article>
+        </div> <!-- Grid Ends -->
+    </div> <!-- Content ends -->
+
+
+    <div class="content">
+      
+      <!-- Grid Starts -->
+        <div class="section-grid"> 
+          <article class="section-wide">
+            <p class="top-heading">Context</p>
+            <h2>Payees invoice Amazon to receive payments.</h2>
+          </article>
+
+          <div class="section-left"> 
+            <p>Payees are suppliers who sell goods & services to Amazon, and then send invoices to receive payments. These invoices, mostly in PDF format, were sent to Amazon via email. Amazon used to process these invoices through legacy systems.</p>
+            <p>Amazon created Payee Central to allow payees to track their invoices and payments.</p>
+          </div>
+
+          <div class="section-right">
+            <img  src="images/Automating-Invoicing/01-Context-01.png" >
+            <!-- <p class="small">Payees invoice Amazon to receive payments.</p>  -->  
+          </div>
+          
+          <div class="section-left"> 
+            
+            <p>Using Payee Central, payees could create invoices via webform, which involved manually filling in invoice details.
+              It required time, effort and cost, and was suitable for payees with low invoice volume.</p>
+          </div>
+
+          <div class="section-right"> 
+            <img  src="images/Automating-Invoicing/01-Context-02.png" width="100%">
+            <!-- <p class="small">Webform invoice was suitable for payees with low invoice volume.</p>    -->
+          </div>
+
+          <div class="section-left">
+            <p>A small number (~2%) of payees did business at high volume, nearly ~70% of the total invoice processed. Existing methods of invoice processing resulted in higher time, effort and cost for them.</p> 
+         
+
+         <!--  <div class="section-right">   
+            <div><img  src="images/Automating-Invoicing/01-Context-03.png" width="100%"></div>
+            <p class="small">Webform was not suitable for payees with high volume of invoices.</p>
+          </div> -->
+          
+           
+          
+          
+            <p class="highlight">Automation was needed to process invoices for high volume payees.</p>
+            <p class="space"></p>
+            <p>EDI - Electronic Data Interchange - is an industry standard to automate invoice processing. It requires a one-time setup, after which invoice files can be directly transferred between servers of two companies.</p>
+          </div>
+
+          <div class="section-right">
+            <img  src="images/Automating-Invoicing/01-Context-04.png" width="100%">
+            <p class="small">EDI is an industry standard to automate invoice processing.</p>
+            
+          </div>
+
+        </div> <!-- Grid Ends -->
+
+    </div> <!-- Content ends -->
+
+
+    
+
+    <div class="content">
+    
+      <!-- Grid Starts -->
+        <div class="section-grid"> 
+         <article class="section-wide">
+            <p class="top-heading">Context</p>
+            <h2>Business and User Goal.</h2>
+          </article>
+        
+
+          <div class="section-left"> 
+            <p>The business goal of this project was to onboard 15 payees with EDI capabilities to Payee Central.</p>
+            <p>The UX goal was to create a self-service interface using which payees can create their EDI setup, and do maintenance activities when required, so that they are invoice-ready at all times.</p>
+          </div>
+          <div class="section-left">
+            <img  src="images/Automating-Invoicing/02-1-Business-Goals.png" width="100%">
+            <p class="small">Business goal: Onboard 15 payees.</p>
+          </div>
+          <div class="section-right">
+            <img  src="images/Automating-Invoicing/02-2-UX-Goals.png" width="100%">
+            <p class="small">UX goal: Create self-serivce interface for EDI setup.</p>
+          </div>
+          
+      </div> <!-- Grid Ends -->
+
+    </div> <!-- Content ends -->
+
+
+    <div class="content">
+
+      <!-- Grid Starts -->
+      <div class="section-grid"> 
+        <article class="section-wide">
+          <p class="top-heading">Stakeholders & Role</p>
+          <h2>Collaboration of remote teams across 3 time-zones.</h2>
+        </article>
+       
+          <div class="section-left">
+            <img  src="images/Automating-Invoicing/03-Stakeholders-Role.png" >
+            <p class="small">Remote team in 3 time-zones.</p>
+          </div>     
+          
+          <article class="section-right"> 
+
+            <div class="highlight highlight-first">
+              <p class="thick">In my role as a UX Designer, I -</p>
+              <ul class="bullet-items">
+                <li>Identified user needs, behaviour & constraints.</li>
+                <li>Understood how the technology worked at the back-end.</li>
+                <li>Remotely tested early ideas as low-fidelity wireframes with actual users.</li>
+                <li>Prepared high-fidelity mocks consistent with Amazon's UI visual styles.</li>
+                <li>Wrote labels and messaging consistent with Amazon's UX Writing Guidelines.</li>
+              </ul>
+              <p class="space"></p>
+              <p class="space"></p>
+            </div>
+            <p class="small">My role</p>
+          </article>
+ 
+      </div><!-- Grid Ends -->
+      </div><!-- Content ends -->
+
+
+
+      <div class="content">
+        <!-- Grid Starts -->
+        <div class="section-grid"> 
+          <article class="section-wide">
+            <p class="top-heading">Primary Research</p>
+            <h2>Prepared an exhaustive questionnaire to understand users.</h2>
+          </article>
+         
+          <div class="section-left"> 
+            <div class="highlight">
+              <p>Started with an exhaustive questionnaire, focusing on -</p>
+              <ul class="bullet-items">
+                <li>who the users were</li>
+                <li>what they wanted to achieve</li>
+                <li>how they would achieve the goal</li>
+                <li>their level of expertise, and</li>
+                <li>what might hinder them</li>
+                </ul>
+            </div>
+          </div>
+
+            <div class="section-right">
+              <img src="images/Automating-Invoicing/04-1-Questionnaire.png" width="100%">
+              <p class="small">Exhaustive questionnaire to understand users, and project success.</p>
+            </div> 
+            
+            <div class="section-left"> 
+              <div class="highlight">
+                
+                <ul class="bullet-items">
+                  <li>Discussed the questionnaire with the stakeholders</li>
+                  <li>Gathered information</li>
+                  <li>Prepared user profiles</li>
+                  </ul>
+              </div>
+            </div>
+
+
+            <div class="section-right">
+              <img src="images/Automating-Invoicing/04-2-Users.png" width="100%">
+              <p class="small">Prepared user profiles.</p>
+            </div>  
+        </div><!-- Grid Ends -->
+      </div><!-- Content ends -->
+  
+
+
+
+      <div class="content">
+        <!-- Grid Starts -->
+        <div class="section-grid"> 
+          <article class="section-wide">
+            <p class="top-heading">Primary user</p>
+            <h2>Software developers on Payee teams</h2>
+          </article>
+         
+          <div class="section-left"> 
+            <p class="highlight highlight-first">Their goal was to create and maintain an EDI setup which was invoice-ready at all times.
+            </p>
+            <div>
+              <p class="space"></p>
+              <p>To create an EDI Setup, they would create connections and test EDI files. For maintenance, they would update connection certificates, and verify more EDI files.
+              </p>
+              <p>The users were well trained at their job, but required some data from Amazon to complete their work.
+              </p>
+              <p>Ideally, they were to do the setup in one go only.
+              </p>
+            </div>
+          </div>
+          
+          <div class="section-right">
+              <img src="images/Automating-Invoicing/05-1-Primary-User.png" width="100%">
+              <p class="small">Primary users were software developers.</p>
+          </div>     
+            
+        </div><!-- Grid Ends -->
+      </div><!-- Content ends -->
+  
+      <div class="content">
+        <!-- Grid Starts -->
+        <div class="section-grid"> 
+          <article class="section-wide">
+            <p class="top-heading">Understanding backend</p>
+            <h2>What's an invoice-ready EDI Setup?</h2>
+          </article>  
+
+          <div class="section-left"> 
+            <div class="highlight highlight-first">
+              <p >The EDI setup was invoice ready, when there was - 
+              </p>
+              <ul class="bullet-items">
+              <li>at least 1 active EDI connection, and</li>
+              <li>at least 1 verified EDI test file</li>
+              </ul>
+            </div>
+            <p class="space"></p>
+            <p>Understood how data would flow for a successful setup, and the various error scenarios that were to be handled.</p>
+          </div>
+
+            <div class="section-right">
+              <img src="images/Automating-Invoicing/05-2-Invoice-Readiness.png" width="100%">
+              <p class="small">Invoice-ready EDI setup.</p>
+            </div>
+          
+               
+        </div><!-- Grid Ends -->
+      </div><!-- Content ends -->
+
+      <div class="content">
+        <!-- Grid Starts -->
+        <div class="section-grid"> 
+          <article class="section-wide">
+            <p class="top-heading">Plan</p>
+            <h2>Given the complexity, the project was divided into multiple stages.</h2>
+          </article>
+         
+          <div class="section-left-narrow"> 
+            <p>The plan was to first build the basic back-end infrastructure to get the business started with a single EDI connection and file type, and later scale to support multiple EDI connections and file types.
+            </p>
+          </div>
+          <div class="section-right-wide">
+            <img src="images/Automating-Invoicing/06-Plan.png" width="100%">
+            <p class="small">Multi-stage plan.</p>
+          </div>  
+        </div><!-- Grid Ends -->
+      </div><!-- Content ends -->
+
+
+      <div class="content">
+        <!-- Grid Starts -->
+        <div class="section-grid"> 
+          <article class="section-wide">
+            <p class="top-heading">Solution - Stage 01</p>
+            <h2>Communicating error messages</h2>
+          </article>
+         
+          <div class="section-left"> 
+            <article>
+              <p>In stage 1, there was no interface planned.</p>
+              <p>Amazon developers were to receive EDI connection details & test files from Payee developers via email. Then, manually create an EDI connection, and add the test file to the system being built for verification.</p>
+              <p>The back-end system would send an email to Payee developers notifying success or failure.</p>
+              <p>Since this was external communication to end users, my contribution was in writing the copy for the templates.</p>
+            </article>
+          </div>
+
+          <div class="section-right">
+            <img src="images/Automating-Invoicing/07-1-Email-Templates.png" width="100%">
+            <p class="small">Wrote copy for email templates.</p>
+          </div> 
+
+        
+          <div class="section-left"> 
+            <article class="block">
+              <p>Soon, we realised the number of errors was far more than initially expected, and an email was not an ideal solution.</p>
+              <p>Suggested creating a separate page to report the errors, and sending the page link via email.</p>
+            </article>
+          </div>
+
+          <div class="section-right">
+            <img src="images/Automating-Invoicing/07-2-Errors-Page.png" width="100%">
+            <p class="small">Created an error page for resolution.</p>
+          </div> 
+
+         
+ 
+        </div><!-- Grid Ends -->
+      </div><!-- Content ends -->
+
+
+      <div class="content">
+        <!-- Grid Starts -->
+        <div class="section-grid"> 
+          <article class="section-wide">
+            <p class="top-heading">Solution - Stage 02</p>
+            <h2>Testing EDI Files</h2>
+          </article>
+         
+          <div class="section-left"> 
+            <article>
+              <p>In stage 2, testing an EDI file was to be done via the interface, while using the EDI connection created in stage 1.</p>
+              <p>The initial expectation was a simple process with 2 actions:</p>
+              <ul class="bullet-items">
+                <li>Provide a sample EDI file to payee developers.</li>
+                <li>Ask them to upload their EDI test file.</li>
+                </ul>
+            </article>
+          </div>
+
+          <div class="section-right"> 
+            <div>
+              <p>However, we built a complicated flow.</p>
+              <p>To increase the success rate of test files, developers suggested leveraging the previously paid invoices, as these payees were already doing business with Amazon via other services.</p>
+              <p><span style="font-weight:600;">Thus, the simple flow became complex.</span></p>
+            </div>
+          </div>
+
+
+          <div class="section-left">
+            <img src="images/Automating-Invoicing/08-1-Flow.png" width="100%">
+            <p class="small">Expected a simple flow.</p>
+          </div> 
+          <div class="section-right">
+            <img src="images/Automating-Invoicing/08-2-Flow.png" width="100%">
+            <p class="small">Built a complicated flow to leverage previously paid out invoices.</p>
+          </div> 
+
+
+          <article class="section-left-narrow">
+            <p class="space"></p>
+            <div class="highlight">
+            <p >To handle the complexity -</p>
+            <ul class="bullet-items">
+              <li>Used progressive disclosure to show only the relevant input fields to the user</li>
+              <li>Remotely tested low fidelity wireframes with users, to see whether they were able to understand the interaction.</li>
+              </ul>
+            </div>
+          </article>
+
+          <div class="section-right-wide">
+            <p class="space"></p>
+            <a href="images/Automating-Invoicing/09-Progressive-Disclosure.png"><img src="images/Automating-Invoicing/09-Progressive-Disclosure.png"></a>
+            
+            <p class="small">Used progressive disclosure, and remotely tested wireframes with users.</p>
+          </div>
+    
+          <article class="section-left">
+            <p class="space"></p>
+            <p>Once we were satisfied that the users followed the interaction, the next step was to create a flow to repeatedly test EDI files.</p>
+            
+          </article>
+          <div class="section-left">
+            <img src="images/Automating-Invoicing/10-1-Testing-Repeatedly.png">
+            <p class="small">Designed a flow to repeatedly test files.</p>
+          </div>
+          <div class="section-right">
+            <img src="images/Automating-Invoicing/10-2-Test-Files.png">
+            <p class="small">Users could test new files, and view status of previous tests.</p>
+          </div>
+          
+          <article class="section-left">
+           
+
+            <div class="highlight">
+              <p >For handoff -</p>
+              <ul class="bullet-items">
+                <li>Detailed the wireframes in Amazon's UI style.</li>
+                <li>Illustrated the flow with error handling & success messagin.</li>
+                </ul>
+              </div>
+
+          </article>
+          <div class="section-wide">
+            <a><img src="images/Automating-Invoicing/11-Testing EDI Files - Complete Flow.png"></a>
+            
+            <p class="small">Illustrated the flow with success and error messaging.</p>
+          </div>
+        </div><!-- Grid Ends -->
+      </div><!-- Content ends -->
+
+
+      <div class="content">
+        <!-- Grid Starts -->
+        <div class="section-grid"> 
+          <article class="section-wide">
+            <p class="top-heading">Solution - Stage 03</p>
+            <h2>Creating an EDI Connection</h2>
+          </article>
+         
+          <div class="section-left"> 
+            <article>
+              <p>Creating an EDI connection was less complicated. Though we had to try a few variations of grouping the input fields.</p>
+            </article>
+          </div>
+
+
+          <div class="section-left">
+            <img src="images/Automating-Invoicing/12-1-Creating-Connections-Flow.png" width="100%">
+            <p class="small">Creating an EDI connection was easier.</p>
+            <p class="space"></p>
+          </div> 
+
+          <div class="section-right">
+            <img src="images/Automating-Invoicing/12-2-Grouping-Variations.png" width="100%">
+            <p class="small">Used a wizard to avoid a long form.</p>
+            <p class="space"></p>
+          </div>  
+
+          <div class="section-wide">
+            <img src="images/Automating-Invoicing/13-Creating-Connection-Flow.png">
+            <p class="small">Illustrated the flow for dev-handoff.</p>
+          </div>
+
+          <article class="section-left">
+            <div class="highlight">
+              <p class="thick">With this step, the basic interface was ready.</p> 
+              <p>Payees could send invoices using a single EDI connection and a single EDI file type.</p>
+            </div>
+            </article>
+          <div class="section-right">
+            <img src="images/Automating-Invoicing/12-4-Basic-Flow.png">
+            <p class="small">The basic interface was ready for sending invoices.</p>
+          </div>
+        </div><!-- Grid Ends -->
+      </div><!-- Content ends -->
+
+
+      <div class="content">
+        <!-- Grid Starts -->
+        <div class="section-grid"> 
+          <article class="section-wide">
+            <p class="top-heading">Solution - Stage 04</p>
+            <h2>Multiple EDI Connections & File Types</h2>
+          </article>
+         
+          <div class="section-left"> 
+            <p>In stage 4, we needed to support multiple connection and file types to expand operations in multiple geographies.</p>
+            <p>It was the most challenging stage in this project.</p>
+          </div>
+
+          <div class="section-right"> 
+            <article>
+              <img src="images/Automating-Invoicing/14-1-Expand-operations.png" width="100%">              
+            </article>
+          </div>
+
+          <div class="section-left"> 
+            
+            <p >We faced 2 challenges.</p> 
+            <p class="thick">First, our understanding of adding multiple file types was wrong.</p>          
+            <p>Use of check-boxes for multi-selection was fine for creating multiple connections, but for testing file types we found that radio buttons were needed to single select a file type.</p>
+          </div>
+
+          <div class="section-right"> 
+            <article>
+              <img src="images/Automating-Invoicing/14-2-Radio-buttons-were-needed.png" width="100%">
+            </article>
+          </div>
+
+          <div class="section-left"> 
+            <p class="thick">And second, we had a new definition of user goal.</p>
+              <p>To ensure a high rate of test file verification, developers on our team suggested requiring at least 3 verified files.</p>
+          </div> 
+
+          <div class="section-right"> 
+            <article>
+              <img src="images/Automating-Invoicing/14-3-New-User-Goal.png" width="100%">
+            </article>
+          </div>
+
+          <div class="section-center">
+            <article class="highlight">
+              <p>To test multiple file types, we thought of 2 approaches- </p>
+              <ul class="bullet-items">
+              <li>Reuse existing UI, but users would have to test one file at a time.</li>
+              <li>Try a new approach, where multiple files could be uploaded in one go.</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="section-left">
+            <img src="images/Automating-Invoicing/15-1-Reuse-Existing-UI.png">
+            <p class="small">Reuse Existing UI - Users had to test files one at a time.</p>
+          </div>
+
+          <div class="section-right">
+            <img src="images/Automating-Invoicing/15-2-New-UI.png">
+            <p class="small">New UI - Users could upload multiple test file in one go.</p>
+          </div>
+
+
+          <article class="section-center">
+            <p class="space"></p>
+            <div class="highlight">
+              <p >These looked simple during whiteboarding. But complexity emerged when detailed in medium fidelity.</p>
+              <p>We had to - </p>
+              <ul class="bullet-items">
+                <li>Rely on a lot of messaging to explain what a user could do next, or</li>
+                <li>Handle complicated drop-downs.</li>
+                </ul>
+            </div>
+          </article>
+
+          <div class="section-left">
+            <img src="images/Automating-Invoicing/16-1-Complicated-Messaging.png">
+            <p class="small">Lot of messaging was needed to explain what a user could do next.</p>
+          </div>
+
+          <div class="section-right">
+            <img src="images/Automating-Invoicing/16-2-Complicated-Dropdowns.png">
+            <p class="small">Complicated dropdowns were difficult to understand.</p>
+          </div>
+         
+
+          <article class="section-center">
+            <p class="space"></p>
+            <div class="highlight">
+              <div>We knew we were wrong, and users also dismissed these solutions.</div>
+            </div>
+          </article>
+
+
+          <div class="section-left">
+            
+            <img src="images/Automating-Invoicing/17-1-Testing-Real-life.png">
+            <p class="small">Users could test only one file at a time.</p>
+          </div>
+
+          <article class="section-right">
+            
+            <p>We had ignored how they would test the files in real life.</p>
+            <p>Testing even one file took repeated efforts, and they could test only one file at a time.</p>
+            
+          </article>
+
+
+          
+
+          <div class="section-left">
+            <img src="images/Automating-Invoicing/17-2-Radio-Buttons.png">
+            <p class="small">Used radio buttons for testing a single file type.</p>
+          </div>
+
+          <article class="section-right">
+            <p>So, we replaced the check-boxes with radio buttons on upload test file screens, while keeping the check-boxes for creating EDI connections.</p>
+          </article>
+
+          <div class="section-left">
+            <img src="images/Automating-Invoicing/17-3-Progress-Bar.png">
+            <p class="small">Focused on user goal of successful test files.</p>
+          </div>
+
+          <article class="section-right">
+            <div class="highlight">
+            <p class="highlight-big">To solve for at least 3 files, the solution lied in focusing on the user goal, and not their tasks.</p>
+            
+            <p >So, instead of writing "Progress bar" for the number of files being uploaded, replaced it with "Successful test files" for number of verified files.</p>
+          </div>
+          <p class="space"></p>
+            <p>Tried various possibilities, and finally reused a progress bar to show the number of successful test files.</p>
+            
+          </article>
+
+    
+          <article class="section-center">
+            <p class="space"></p>
+            <p>Lastly, we were to show Amazon's EDI specifications. I tried some visual variations, and kept the hierarchy of various elements in mind to arrive at the final solution.</p>
+            
+          </article>
+
+          <div class="section-left-wide">
+            <img src="images/Automating-Invoicing/18-1-Handling-Constraints.png">
+          </div>
+
+          <article class="section-right-narrow">
+            <p class="thick">Variation #1</p>
+            <ul class="bullet-items margin-zero">
+              <li>Visually scattered</li>
+              <li>Information not in the order of user need</li>
+              <li>Too many info icons competed for attention</li>
+              </ul>
+          </article>
+
+          <div class="section-left-wide">
+            <img src="images/Automating-Invoicing/18-2-Handling-Constraints.png">
+          </div>
+
+          <article class="section-right-narrow">
+            <p class="thick ">Variation #2</p>
+            <ul class="bullet-items margin-zero">
+              <li>Visually less scattered</li>
+              <li>Information not in the order of user need</li>
+              <li>Important data inside a banner</li>
+              </ul>
+          </article>
+
+          <div class="section-left-wide">
+            <img src="images/Automating-Invoicing/18-3-Handling-Constraints.png">
+          </div>
+
+          <article class="section-right-narrow">
+            <p class="thick">Variation #3</p>
+            <ul class="bullet-items margin-zero">
+              <li>Visually balanced on page</li>
+              <li>Information in the order of user need</li>
+              <li>Emphasis on important data</li>
+              </ul>
+          </article>
+    
+          <article class="section-center">
+            <p class="space"></p>
+            <p class="highlight highlight-big">The payees could now invoice in different regions using multiple connection types & file types.</p>
+            
+          </article>
+          <div class="section-wide">
+            <img src="images/Automating-Invoicing/19-What-we-achieved.png">
+            <p class="small">Payees could invoice in different regions, using multiple connection types & file types.</p>
+          </div>
+        </div><!-- Grid Ends -->
+      </div><!-- Content ends -->
+
+
+      <div class="content">
+        <!-- Grid Starts -->
+        <div class="section-grid"> 
+          <article class="section-wide">
+            <p class="top-heading">Solution - Stage 05</p>
+            <h2>Dashboard to see invoice-readiness</h2> 
+          </article>
+         
+          <div class="section-left"> 
+            <article class="highlight">
+              <p>A dashboard was needed by the Payee Account Managers to - </p>
+              <ul class="bullet-items">
+                <li>See the countries where they can invoice, according to a file type.</li>
+                <li>Fix maintenance issues by updating connection certificates, or uploading new test files.</li>
+              </ul>
+            </article>
+          </div>
+
+            <div class="section-right"> 
+            <img src="images/Automating-Invoicing/20-1-Dashboard-Where-Can-Invoice.png" width="100%">
+          </div>
+
+          
+
+         
+
+          <!-- 
+          <div class="section-left">
+            <img src="images/Automating-Invoicing/21-1-Dashboard-Variations.png" width="100%">
+          </div>  
+          <article class="section-right block">
+            <p class="thick">Early concept to start the discussion</p>
+            <ul class="bullet-items margin-zero">
+              <li>Not scaleable to show all file types on same page, as each file type could have 20 country cards.</li>
+              <li>Data shown in only text was not easy to read.</li>
+              </ul>
+          </article>
+
+          <div class="section-left">
+            <img src="images/Automating-Invoicing/21-2-Dashboard-Variations.png" width="100%">
+          </div>  
+          <article class="section-right block">
+            <p class="thick">Emphasised 'Cannot invoice' cards.</p>
+            <ul class="bullet-items margin-zero">
+              <li>Too much red was overwhelming, and redundant even if there was only one card.</li>
+              <li>In user test, we learned that the first thing they wanted to see was a country where they could invoice.</li>
+              <li>Fixing issues was secondary. They needed to be notified in advance.</li>
+              </ul>
+          </article>
+
+
+          <div class="section-left">
+            <img src="images/Automating-Invoicing/21-3-Dashboard-Variations.png" width="100%">
+          </div>  
+          <article class="section-right block">
+            <p class="thick">Moved 'Can invoice' cards on top.</p>
+            <ul class="bullet-items margin-zero">
+              <li>Removed the redundant red cards.</li>
+              <li>Icons made it easier to see what needed a fix, without reading too much text.</li>
+              </ul>
+          </article>
+
+          <div class="section-left">
+            <img src="images/Automating-Invoicing/21-4-Dashboard-Variations.png" width="100%">
+          </div>   -->
+
+          <!-- <div class="section-center">
+          <p class="highlight">Created a few visual variations, tested with users, and iterated until there was a right fit.</p>
+          </div> -->
+
+          <div class="section-wide">
+            <img src="images/Automating-Invoicing/21-Dashboard-Variations.png" width="100%">
+            <p class="small">Created a few visual variations, tested with users, and iterated until there was a right fit.</p>
+          </div> 
+          
+          <div class="section-large">
+            <img src="images/Automating-Invoicing/20-3-Dashboard-Final.png" width="100%">
+            <p class="small">Users could see where they can invoice.</p>
+          </div> 
+
+        </div><!-- Grid Ends -->
+      </div><!-- Content ends -->
+
+
+      <div class="content">
+        <!-- Grid Starts -->
+        <div class="section-grid"> 
+          <article class="section-wide">
+            <p class="top-heading">Final Solution</p>
+            <h2>Putting everything together.</h2> 
+          </article>  
+
+          <article class="section-left">
+            <p>With all these sections on the set page, we ended up with a long page.</p>
+            <p><span style="font-weight:600;">To avoid a scroll, used tabs</span> to place the content on the basis of the frequency of use.</p>
+          </article>
+
+          <div class="section-wide">
+            <img src="images/Automating-Invoicing/22-Putting-Everything-Together.png" width="100%">
+            <p class="small">Used tabs to avoid a long scroll.</p>
+          </div> 
+
+        </div><!-- Grid Ends -->
+      </div><!-- Content ends -->
+
+
+      <div class="content">
+        <!-- Grid Starts -->
+        <div class="section-grid"> 
+          <article class="section-wide">
+            <h2>Launch & Learnings</h2>
+          </article>
+          <article class="section-left">
+            <p>For the launch, made an infographic informing the stakeholders about the project's impact.</p>
+          </article>
+          <div class="section-left">
+            <img src="images/Automating-Invoicing/23-Launch.png">
+          </div>
+
+          
+          <div class="section-right">
+            <article class="highlight highlight-first">
+              <p class="thick">In terms of UX processes, we learned -</p>
+              <ul class="bullet-items">
+                <li>Importance of testing with wireframes before putting in development effort.</li>
+                <li>To focus on user goals, and not get lost into details of user tasks.</li>
+              </ul>
+              <p class="space"></p>
+              <p class="thick">In term of Amazon's Leadership Principles, the learnings were -</p>
+              <ul class="bullet-items">
+                <li>Deep dive on complexity.</li>
+                <li>Simplify, simplify and simplify.</li>
+              </ul>
+            </article>
+          </div>
+
+        </div><!-- Grid Ends -->
+      </div><!-- Content ends -->
+
+  </main>
+
+
+</body>
+</html>
