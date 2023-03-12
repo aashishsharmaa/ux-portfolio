@@ -40,7 +40,7 @@ p{padding-bottom: 1.25rem; font-size: 20px; font-weight:400; color: #2D4E6C;
 
 p.medium{font-weight: 500; margin-bottom: -1rem;}
 p.thick {font-weight: 600;}
-p.bold{font-weight: 700; color:red;}
+p.bold{font-weight: 700;}
 p.left {text-align: left;} 
 p.small{font-size: 16px; text-align: center; padding: 1rem 0rem ; /* color: #587289; */}
 
@@ -361,9 +361,9 @@ margin: 0 auto;}
   p.top-heading {font-size: 15px;color: #587289; margin-bottom: -1rem;}
   h1, h2{font-weight:500;line-height: 140%;}
   h1 {font-size: 32px; margin-bottom: 1rem;}
-  h2 {font-size: 20px; color:red;}
+  h2 {font-size: 20px;}
   .duration{font-size: 13px;}
-  .section-grid h2{font-size: 28px; max-width: 34ch; line-height: 150%; } 
+  .section-grid h2{font-size: 28px; max-width: 34ch; line-height: 125%; } 
 
   .bullet-items li{margin-left:2rem; padding-left: .5rem; padding-top: .5rem; font-size: 18px; font-weight: 400;color: #2D4E6C; }
   .bullet-items li:first-child{margin-top: -20px;}
@@ -371,8 +371,8 @@ margin: 0 auto;}
 
   
 
-  .intro h1{font-size: 32px; font-weight: 600; line-height: 150%; padding-top:1rem; color:blue;}
-  .intro-text {font-size: 22px; font-weight: 500; line-height: 150%; padding: 0px 10px; color:pink;}
+  .intro h1{font-size: 32px; font-weight: 600; line-height: 150%; padding-top:1rem; }
+  .intro-text {font-size: 22px; font-weight: 500; line-height: 150%; padding: 0px 10px;}
   .intro-text-small {font-size: 19px; line-height: 150%; padding-top: 1rem;}
 
   
