@@ -360,8 +360,8 @@ margin: 0 auto;}
   p.small-heading {font-size: 13px; margin-bottom: -1rem; font-weight: 400; color: #587289;}
   p.top-heading {font-size: 15px;color: #587289; margin-bottom: -1rem;}
   h1, h2{font-weight:500;line-height: 140%;}
-  h1 {font-size: 32px; margin-bottom: 1rem; color:red;}
-  h2 {font-size: 21px; color:red;}
+  h1 {font-size: 32px; margin-bottom: 1rem;}
+  h2 {font-size: 20px; color:red;}
   .duration{font-size: 13px;}
 
   .bullet-items li{margin-left:2rem; padding-left: .5rem; padding-top: .5rem; font-size: 18px; font-weight: 400;color: #2D4E6C; }
@@ -369,8 +369,8 @@ margin: 0 auto;}
   /*  .bullet-items li{margin-left:12px; font-size: 18px; padding-left: 4px; padding-top: 1.25rem;} */
 
   .section-grid h2{font-size: 32px; max-width: 34ch; line-height: 150%; }      
-  .intro h1{font-size: 32px; font-weight: 600; line-height: 150%; padding-top:1rem;}
-  .intro-text {font-size: 24px; font-weight: 500; line-height: 150%; padding: 0px 10px;}
+  .intro h1{font-size: 32px; font-weight: 600; line-height: 150%; padding-top:1rem; color:blue;}
+  .intro-text {font-size: 22px; font-weight: 500; line-height: 150%; padding: 0px 10px; color:pink;}
   .intro-text-small {font-size: 19px; line-height: 150%; padding-top: 1rem;}
 
   
