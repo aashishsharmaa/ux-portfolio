@@ -50,6 +50,10 @@ h1, h2{font-weight:500;line-height: 150%;}
 h1 {font-size: 36px; margin-bottom: .5rem;}
 h2 {font-size: 24px;}
 
+.other h1{text-align: center; font-size: 32px; padding-bottom: 4rem;}
+
+
+
 .duration{font-size: 16px; padding:10px 0px; color: #587289;}
 .description{padding:10px 0px;}
 .thick {font-weight: 600;}
@@ -59,7 +63,7 @@ h2 {font-size: 24px;}
 .number-items li:first-child{margin-top: -20px;}
 .number-items li:last-child{padding-bottom: 1.25rem;}
 .bullet-items li{color: #2D4E6C; margin-left:2rem; padding-left: .5rem; padding-top: .5rem; font-size: 20px; font-weight: 400;}
-/* .bullet-items li:first-child{margin-top: -20px;} */
+.bullet-items li:first-child{margin-top: -20px;}
 .space{height:1rem;}
 .block{padding:0px 0px;}
 
@@ -69,9 +73,9 @@ h2 {font-size: 24px;}
 
 .line-content { margin-bottom: -1.25rem;}
 .highlight-small {font-size: 18px;}
-.highlight-big {font-size: 22px;margin-bottom: 1rem;}
+.highlight-big {font-size: 22px;/* margin-bottom: 1rem; */}
 .highlight-bold {font-weight: 600;}
-.highlight-large {font-size: 28px; padding:80px;}
+.highlight-large {font-size: 28px; padding:40px;}
 .highlight-bigger {font-size: 24px;}
 
 
@@ -95,7 +99,7 @@ h2 {font-size: 24px;}
 }
 
 
-.other h1{text-align: center; font-size: 32px; padding-bottom: 4rem;}
+
 
   .container img {
       display: block;
@@ -128,7 +132,6 @@ h2 {font-size: 24px;}
 
 
 /* .section-grid p{padding-top: 1rem;} */
-
 
 .section-grid {
   font-size: 21px;
@@ -237,7 +240,7 @@ margin: 0 auto;}
     display: block;
     text-decoration: none;
     font-size: 18px;
-    padding: 20px 30px;
+    padding: 20px 20px;
   }
   
   .header li a:hover,
@@ -254,7 +257,7 @@ margin: 0 auto;}
     float: left;
     font-size: 1.5em;
     font-weight: 400;
-    padding: 15px 30px;
+    padding: 15px 20px;
     text-decoration: none;
   }
   
@@ -338,6 +341,12 @@ margin: 0 auto;}
     /* 40em = 640px */
 @media only screen and (max-width: 48em) {
 
+  /* Important - Padding on mobile devices*/
+  .section-grid {
+    padding: 0px 20px;
+  }
+
+
   .content:first-child{padding-top: 6rem;}
   .duration{padding-top:0px; padding-bottom:10px;font-size: 18px;}
 
@@ -357,20 +366,19 @@ margin: 0 auto;}
   h1 {font-size: 32px; margin-bottom: 2rem;}
   h2 {font-size: 22px;}
 
+
+  
+
+  .section-grid h2{font-size: 32px; max-width: 34ch; line-height: 150%; }
+
    /* .bullet-items li{margin-left:12px; padding-left: 4px; padding-top: 1.25rem;} */
       
       
    .intro h1{font-size: 36px; font-weight: 600; line-height: 150%; padding-top:1rem;}
-   .intro-text {font-size: 27px; line-height: 150%; padding-top:1rem;}
+   .intro-text {font-size: 26px; line-height: 150%;}
 
    .other h1{text-align: center; font-size: 32px; padding-bottom: 4rem;}
    
-
- 
-   .section-grid h2{font-size: 32px; max-width: 34ch; line-height: 150%; }
-
- 
-
   
       .card-container{ 
         padding-left: 20px;
@@ -380,13 +388,8 @@ margin: 0 auto;}
       }
 
       .card-image {width: 100%;}
-     
 
-        
-        
-        
-
-    }
+    }  /* Max width ENDS - 40em = 640px */
 
 
 
@@ -419,15 +422,17 @@ margin: 0 auto;}
     .content:first-child{padding-top: 8rem;} 
 
     p{padding-bottom: 1.25rem; text-align: justify;}
+
+   /* Important - Padding on mobile devices*/
+   .section-grid {
+    padding: 0px 40px;
+  }
     
-    
-    /* Important - Padding on mobile devices*/
-    .section-grid {
-      padding: 0px 40px;
-    }
-    
-    .intro h1{font-size: 48px; font-weight: 600; line-height: 200%;}
-    .intro-text {font-size: 38px; line-height: 150%;}
+    .intro h1{font-size: 48px; font-weight: 600; line-height: 200%; padding-top:1rem;}
+    .intro-text {font-size: 36px; line-height: 150%;}
+
+/*     .intro h1{font-size: 36px; font-weight: 600; line-height: 150%; padding-top:1rem;}
+   .intro-text {font-size: 26px; line-height: 150%;} */
     
     .other h1{text-align: center; font-size: 32px; padding-bottom: 4rem;}
 
@@ -477,6 +482,7 @@ margin: 0 auto;}
   .intro h1{padding-top:1rem; font-size: 42px; font-weight: 600; line-height: 150%; }
   .intro-text {font-size: 32px; line-height: 160%;max-width: 20ch; padding-top:01rem;}
   
+    
 
   /* Section Grids*/
  
@@ -540,7 +546,7 @@ margin: 0 auto;}
   .intro * {text-align: left;}
   .intro {padding:0rem 0rem;justify-content: center; align-content: center;}
 
-  .intro h1{padding-top:6rem; font-size: 48px; font-weight: 600; line-height: 150%; }
+  .intro h1{padding-top:4rem; font-size: 48px; font-weight: 600; line-height: 150%; }
   .intro-text {font-size: 38px; line-height: 160%;max-width: 20ch; padding-top:01rem;}
   /* .intro h2{font-size: 2.5vw; font-weight: 600; line-height: 150%;} */
   
@@ -548,6 +554,81 @@ margin: 0 auto;}
   .other h1{text-align: center; font-size: 32px; padding-bottom: 6rem;}
   .section-grid h2{font-size: 32px; max-width: 34ch;}
   .description{max-width: 48ch;}
+  .highlight-large {font-size: 28px; padding:80px;}
+  
+
+  /* Section Grids*/
+  .section-grid {
+    grid-template-columns: repeat(10, 1fr);
+  }
+
+  .section-center{
+    grid-column-start: 3;
+    grid-column-end: 9;
+  }
+
+  .section-large{
+    grid-column-start: 3;
+    grid-column-end: 9;
+  }
+
+  .section-left {
+    grid-column-start: 1;
+    grid-column-end: 6;
+  }
+
+  .section-right {
+    grid-column-start: 6;
+    grid-column-end: 11;
+  }
+
+  .section-wide{
+    grid-column-start: 1;
+    grid-column-end: 11;
+  }
+
+  .section-left-narrow {
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  .section-right-wide {
+    grid-column-start: 5;
+    grid-column-end: 11;
+  }
+
+  .section-left-wide {
+    grid-column-start: 1;
+    grid-column-end: 7;
+  }
+  .section-right-narrow {
+    grid-column-start: 7;
+    grid-column-end: 11;
+  }
+
+ 
+
+  }
+
+
+  /* 1440px = 90rem*/
+@media only screen and (min-width: 90em){
+
+  .content:first-child{
+    padding-top: 8rem;
+  padding-left: 0px;}
+
+  .intro * {text-align: left;}
+  .intro {padding:0rem 0rem;justify-content: center; align-content: center;}
+
+  .intro h1{padding-top:4rem; font-size: 48px; font-weight: 600; line-height: 150%; }
+  .intro-text {font-size: 38px; line-height: 160%;max-width: 20ch; padding-top:01rem;}
+  /* .intro h2{font-size: 2.5vw; font-weight: 600; line-height: 150%;} */
+  
+  
+  .other h1{text-align: center; font-size: 32px; padding-bottom: 6rem;}
+  .section-grid h2{font-size: 32px; max-width: 34ch;}
+  .description{max-width: 48ch;}
+  .highlight-large {font-size: 28px; padding:80px;}
   
 
   /* Section Grids*/
@@ -598,6 +679,5 @@ margin: 0 auto;}
     grid-column-end: 10;
   }
 
- 
 
-  }
+}
