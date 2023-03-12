@@ -40,8 +40,9 @@ p{padding-bottom: 1.25rem; font-size: 20px; font-weight:400; color: #2D4E6C;
 
 p.medium{font-weight: 500; margin-bottom: -1rem;}
 p.thick {font-weight: 600;}
+p.bold{font-weight: 700; color:red;}
 p.left {text-align: left;} 
-p.small{font-size: 16px; text-align: center; padding: 1rem 0rem ; color: #587289;}
+p.small{font-size: 16px; text-align: center; padding: 1rem 0rem ; /* color: #587289; */}
 
 
 p.small-heading {font-size: 16px; margin-bottom: -1rem; font-weight: 400; color: #587289;}
@@ -98,9 +99,6 @@ h2 {font-size: 24px;}
   color: white;
 }
 
-
-
-
   .container img {
       display: block;
       margin: auto; 
@@ -110,7 +108,6 @@ h2 {font-size: 24px;}
       display: block;
       margin: auto; 
     }
-
 
 .circle {
   border-radius: 50%;
@@ -363,29 +360,20 @@ margin: 0 auto;}
   p.small-heading {font-size: 13px; margin-bottom: -1rem; font-weight: 400; color: #587289;}
   p.top-heading {font-size: 15px;color: #587289; margin-bottom: -1rem;}
   h1, h2{font-weight:500;line-height: 150%;}
-  h1 {font-size: 32px; margin-bottom: 2rem;}
+  h1 {font-size: 32px; margin-bottom: 1rem;}
   h2 {font-size: 22px;}
-
- /*  .bullet-items li{margin-left:12px; font-size: 18px; padding-left: 4px; padding-top: 1.25rem;
-    
-  } */
 
   .bullet-items li{margin-left:2rem; padding-left: .5rem; padding-top: .5rem; font-size: 20px; font-weight: 400;color: #2D4E6C; }
   .bullet-items li:first-child{margin-top: -20px;}
+  /*  .bullet-items li{margin-left:12px; font-size: 18px; padding-left: 4px; padding-top: 1.25rem;} */
 
-
+  .section-grid h2{font-size: 32px; max-width: 34ch; line-height: 150%; }      
+  .intro h1{font-size: 32px; font-weight: 600; line-height: 150%; padding-top:1rem;}
+  .intro-text {font-size: 24px; font-weight: 500; line-height: 150%; padding: 0px 10px;}
+  .intro-text-small {font-size: 19px; line-height: 150%; padding-top: 1rem;}
 
   
-
-  .section-grid h2{font-size: 32px; max-width: 34ch; line-height: 150%; }
-
-   
-      
-      
-   .intro h1{font-size: 36px; font-weight: 600; line-height: 150%; padding-top:1rem;}
-   .intro-text {font-size: 26px; line-height: 150%;}
-
-   .other h1{text-align: center; font-size: 32px; padding-bottom: 4rem;}
+  .other h1{text-align: center; font-size: 32px; padding-bottom: 4rem;}
    
   
       .card-container{ 
@@ -437,7 +425,8 @@ margin: 0 auto;}
   }
     
     .intro h1{font-size: 48px; font-weight: 600; line-height: 200%; padding-top:1rem;}
-    .intro-text {font-size: 36px; line-height: 150%;}
+    .intro-text {font-size: 36px; line-height: 150%; padding: 0px 40px;}
+    .intro-text-small {font-size: 28px; line-height: 150%; padding-top: 2rem;}
 
 /*     .intro h1{font-size: 36px; font-weight: 600; line-height: 150%; padding-top:1rem;}
    .intro-text {font-size: 26px; line-height: 150%;} */
@@ -487,8 +476,9 @@ margin: 0 auto;}
   
   .intro {padding:2rem 0rem;justify-content: center; align-content: center;}
   
-  .intro h1{padding-top:1rem; font-size: 42px; font-weight: 600; line-height: 150%; }
-  .intro-text {font-size: 32px; line-height: 160%;max-width: 20ch; padding-top:01rem;}
+  .intro h1{padding-top:0rem; font-size: 36px; font-weight: 600; line-height: 150%; }
+  .intro-text {font-size: 27px; line-height: 150%;  padding: 0px 0px; padding-top: 1rem;}
+  .intro-text-small {font-size: 22px; line-height: 150%;}
   
     
 
@@ -555,7 +545,10 @@ margin: 0 auto;}
   .intro {padding:0rem 0rem;justify-content: center; align-content: center;}
 
   .intro h1{padding-top:4rem; font-size: 48px; font-weight: 600; line-height: 150%; }
-  .intro-text {font-size: 38px; line-height: 160%;max-width: 20ch; padding-top:01rem;}
+  .intro-text {font-size: 36px; line-height: 150%; padding-top:01rem; font-weight: 400; max-width: 26ch;}
+  .intro-text-small {font-size: 30px; line-height: 150%;}
+
+  
   /* .intro h2{font-size: 2.5vw; font-weight: 600; line-height: 150%;} */
   
   
@@ -629,7 +622,8 @@ margin: 0 auto;}
   .intro {padding:0rem 0rem;justify-content: center; align-content: center;}
 
   .intro h1{padding-top:4rem; font-size: 48px; font-weight: 600; line-height: 150%; }
-  .intro-text {font-size: 38px; line-height: 160%;max-width: 20ch; padding-top:01rem;}
+  .intro-text {font-size: 36px; line-height: 150%; padding-top:01rem; font-weight: 400; max-width: 26ch;}
+  .intro-text-small {font-size: 30px; line-height: 150%;}
   /* .intro h2{font-size: 2.5vw; font-weight: 600; line-height: 150%;} */
   
   
