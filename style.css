@@ -359,9 +359,9 @@ margin: 0 auto;}
   p.small{font-size: 14px; text-align: center; padding: 1rem 0rem ; color: #587289;}
   p.small-heading {font-size: 13px; margin-bottom: -1rem; font-weight: 400; color: #587289;}
   p.top-heading {font-size: 15px;color: #587289; margin-bottom: -1rem;}
-  h1, h2{font-weight:500;line-height: 150%;}
-  h1 {font-size: 32px; margin-bottom: 1rem;}
-  h2 {font-size: 22px;}
+  h1, h2{font-weight:500;line-height: 140%;}
+  h1 {font-size: 32px; margin-bottom: 1rem; color:red;}
+  h2 {font-size: 21px; color:red;}
   .duration{font-size: 13px;}
 
   .bullet-items li{margin-left:2rem; padding-left: .5rem; padding-top: .5rem; font-size: 18px; font-weight: 400;color: #2D4E6C; }
