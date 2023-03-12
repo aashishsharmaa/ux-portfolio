@@ -237,7 +237,7 @@ margin: 0 auto;}
     display: block;
     text-decoration: none;
     font-size: 18px;
-    padding: 20px 40px;
+    padding: 20px 30px;
   }
   
   .header li a:hover,
@@ -345,17 +345,31 @@ margin: 0 auto;}
   .highlight-large {font-size: 24px; padding:2rem;}
 
   p.space{display: none;}
+  p{text-align: left;}
+
+
+  /* Font sizes on mobile devices*/
   p{font-size: 20px;}
-
   p.small{font-size: 16px; text-align: center; padding: 1rem 0rem ; color: #587289;}
-
-
   p.small-heading {font-size: 14px; margin-bottom: -1rem; font-weight: 400; color: #587289;}
   p.top-heading {font-size: 16px;color: #587289; margin-bottom: -1rem;}
   h1, h2{font-weight:500;line-height: 150%;}
-  h1 {font-size: 32px; margin-bottom: .5rem;}
+  h1 {font-size: 32px; margin-bottom: 2rem;}
   h2 {font-size: 22px;}
 
+   /* .bullet-items li{margin-left:12px; padding-left: 4px; padding-top: 1.25rem;} */
+      
+      
+   .intro h1{font-size: 36px; font-weight: 600; line-height: 150%; padding-top:1rem;}
+   .intro-text {font-size: 27px; line-height: 150%; padding-top:1rem;}
+
+   .other h1{text-align: center; font-size: 32px; padding-bottom: 4rem;}
+   
+
+ 
+   .section-grid h2{font-size: 32px; max-width: 34ch; line-height: 150%; }
+
+ 
 
   
       .card-container{ 
@@ -366,22 +380,10 @@ margin: 0 auto;}
       }
 
       .card-image {width: 100%;}
-      /* .bullet-items li{margin-left:12px; padding-left: 4px; padding-top: 1.25rem;} */
-      
-      
-      .intro h1{font-size: 32px; font-weight: 600; line-height: 150%; padding-top:1rem;}
-      .intro-text {font-size: 6vw; line-height: 150%;padding-top:1rem;}
-
-      .other h1{text-align: center; font-size: 32px; padding-bottom: 4rem;}
-      
-  
-        p{text-align: left;}
+     
 
         
-        /* Important - Padding on mobile devices*/
-        .section-grid {
-          padding: 0px 30px;
-        }
+        
         
 
     }
@@ -419,6 +421,10 @@ margin: 0 auto;}
     p{padding-bottom: 1.25rem; text-align: justify;}
     
     
+    /* Important - Padding on mobile devices*/
+    .section-grid {
+      padding: 0px 40px;
+    }
     
     .intro h1{font-size: 48px; font-weight: 600; line-height: 200%;}
     .intro-text {font-size: 38px; line-height: 150%;}
@@ -540,8 +546,6 @@ margin: 0 auto;}
   
   
   .other h1{text-align: center; font-size: 32px; padding-bottom: 6rem;}
-
-
   .section-grid h2{font-size: 32px; max-width: 34ch;}
   .description{max-width: 48ch;}
   
