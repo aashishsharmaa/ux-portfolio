@@ -362,6 +362,7 @@ margin: 0 auto;}
   h1, h2{font-weight:500;line-height: 150%;}
   h1 {font-size: 32px; margin-bottom: 1rem;}
   h2 {font-size: 22px;}
+  .duration{font-size: 13px;}
 
   .bullet-items li{margin-left:2rem; padding-left: .5rem; padding-top: .5rem; font-size: 18px; font-weight: 400;color: #2D4E6C; }
   .bullet-items li:first-child{margin-top: -20px;}
