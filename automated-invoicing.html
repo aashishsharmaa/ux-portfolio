@@ -52,48 +52,41 @@
           </article>
 
           <div class="section-left"> 
-            <p>Payees are suppliers who sell goods & services to Amazon, and then send invoices to receive payments. These invoices, mostly in PDF format, were sent to Amazon via email. Amazon used to process these invoices through legacy systems.</p>
-            <p>Amazon created Payee Central to allow payees to track their invoices and payments.</p>
-          </div>
-
-          <div class="section-right">
             <img  src="images/Automating-Invoicing/01-Context-01.png" >
             <!-- <p class="small">Payees invoice Amazon to receive payments.</p>  -->  
+            <p class="space"></p>
+            <p>Payees are suppliers who sell goods & services to Amazon, and then send invoices to receive payments. These invoices, mostly in PDF format, were sent to Amazon via email. Amazon used to process these invoices through legacy systems.</p>
           </div>
           
-          <div class="section-left"> 
-            
-            <p>Using Payee Central, payees could create invoices via webform, which involved manually filling in invoice details.
-              It required time, effort and cost, and was suitable for payees with low invoice volume.</p>
-          </div>
-
+          
           <div class="section-right"> 
             <img  src="images/Automating-Invoicing/01-Context-02.png" width="100%">
-            <!-- <p class="small">Webform invoice was suitable for payees with low invoice volume.</p>    -->
+              <!-- <p class="small">Webform invoice was suitable for payees with low invoice volume.</p>  -->
+              <p class="space"></p>
+            <!-- <p>Amazon created Payee Central to allow payees to track their invoices and payments.</p> -->
+            <p>Amazon created Payee Central, using which Payee Central, payees could create invoices via webform.</p>
+            <p>Webform involved manually filling in invoice details, requiring time, effort and cost, and thus was suitable for payees with low invoice volume.</p>
           </div>
 
-          <div class="section-left">
-            <p>A small number (~2%) of payees did business at high volume, nearly ~70% of the total invoice processed. Existing methods of invoice processing resulted in higher time, effort and cost for them.</p> 
+          <div class="section-center">
+            <div class="highlight highlight-bigger">Automation was needed to process invoices for high volume payees.</div>
+          </div>
+
          
 
-         <!--  <div class="section-right">   
-            <div><img  src="images/Automating-Invoicing/01-Context-03.png" width="100%"></div>
-            <p class="small">Webform was not suitable for payees with high volume of invoices.</p>
-          </div> -->
-          
-           
-          
-          
-            <p class="highlight highlight-bigger">Automation was needed to process invoices for high volume payees.</p>
+          <div class="section-left">
+            <img  src="images/Automating-Invoicing/01-Context-03.png" width="100%">
+            <!-- <p class="small">Webform was not suitable for payees with high volume of invoices.</p> -->
             <p class="space"></p>
-            <p>EDI - Electronic Data Interchange - is an industry standard to automate invoice processing. It requires a one-time setup, after which invoice files can be directly transferred between servers of two companies.</p>
+            <p>A small number (~2%) of payees did business at high volume, nearly ~70% of the total invoice processed. Existing methods of invoice processing resulted in higher time, effort and cost for them. Automation was needed to process invoices for high volume payees.</p>  
           </div>
-
+          
           <div class="section-right">
             <img  src="images/Automating-Invoicing/01-Context-04.png" width="100%">
-            <p class="small">EDI is an industry standard to automate invoice processing.</p>
-            
-          </div>
+            <!-- <p class="small">EDI is an industry standard to automate invoice processing.</p> -->
+            <p class="space"></p>
+            <p>EDI - Electronic Data Interchange - is an industry standard to automate invoice processing. It requires a one-time setup, after which invoice files can be directly transferred between servers of two companies.</p>
+          </div> 
 
         </div> <!-- Grid Ends -->
 
@@ -112,21 +105,22 @@
           </article>
         
 
-          <div class="section-left"> 
-            <p>The business goal of this project was to onboard 15 payees with EDI capabilities to Payee Central.</p>
-            <p>The UX goal was to create a self-service interface using which payees can create their EDI setup, and do maintenance activities when required, so that they are invoice-ready at all times.</p>
-          </div>
           <div class="section-left">
             <img  src="images/Automating-Invoicing/02-1-Business-Goals.png" width="100%">
             <p class="small">Business goal: Onboard 15 payees.</p>
+            <p class="space"></p>
+            <p>The business goal of this project was to onboard 15 payees with EDI capabilities to Payee Central.</p>
           </div>
+
+
           <div class="section-right">
             <img  src="images/Automating-Invoicing/02-2-UX-Goals.png" width="100%">
             <p class="small">UX goal: Create self-serivce interface for EDI setup.</p>
+            <p class="space"></p>
+            <p>The UX goal was to create a self-service interface using which payees can create their EDI setup, and do maintenance activities when required, so that they are invoice-ready at all times.</p>
           </div>
           
       </div> <!-- Grid Ends -->
-
     </div> <!-- Content ends -->
 
 
@@ -229,8 +223,6 @@
               </p>
               <p>The users were well trained at their job, but required some data from Amazon to complete their work.
               </p>
-              <p>Ideally, they were to do the setup in one go only.
-              </p>
             </div>
           </div>
           
@@ -259,7 +251,13 @@
               </ul>
             </div>
             <p class="space"></p>
-            <p>Understood how data would flow for a successful setup, and the various error scenarios that were to be handled.</p>
+            <div class="highlight highlight-first">
+              <p>Next, discussed with team -</p>
+              <ul class="bullet-items">
+                <li>how data would flow for a successful setup</li>
+                <li>various error scenarios that were to be handled</li>
+                </ul>
+            </div>
           </div>
 
             <div class="section-right">
@@ -299,7 +297,7 @@
             <h2>Communicating error messages</h2>
           </article>
          
-          <div class="section-left"> 
+          <div class="section-left-narrow"> 
             <article>
               <p>In stage 1, there was no interface planned.</p>
               <p>Amazon developers were to receive EDI connection details & test files from Payee developers via email. Then, manually create an EDI connection, and add the test file to the system being built for verification.</p>
@@ -308,17 +306,17 @@
             </article>
           </div>
 
-          <div class="section-right">
+          <div class="section-right-wide">
             <img src="images/Automating-Invoicing/07-1-Email-Templates.png" width="100%">
             <p class="small">Wrote copy for email templates.</p>
           </div> 
         
-          <div class="section-left"> 
+          <div class="section-left-narrow"> 
               <p>Soon, we realised the number of errors was far more than initially expected, and an email was not an ideal solution.</p>
               <p>Suggested creating a separate page to report the errors, and sending the page link via email.</p>
           </div>
 
-          <div class="section-right">
+          <div class="section-right-wide">
             <img src="images/Automating-Invoicing/07-2-Errors-Page.png" width="100%">
             <p class="small">Created an error page for resolution.</p>
           </div> 
@@ -378,15 +376,14 @@
 
           <div class="section-right-wide">
             <p class="space"></p>
-            <a href="images/Automating-Invoicing/09-Progressive-Disclosure.png"><img src="images/Automating-Invoicing/09-Progressive-Disclosure.png"></a>
+            <a href="images/Automating-Invoicing/09-Progressive-Disclosure.png">
+              <img src="images/Automating-Invoicing/09-Progressive-Disclosure.png"></a>
             
             <p class="small">Used progressive disclosure, and remotely tested wireframes with users.</p>
           </div>
     
           <article class="section-left">
-            <p class="space"></p>
             <p>Once we were satisfied that the users followed the interaction, the next step was to create a flow to repeatedly test EDI files.</p>
-            
           </article>
           <div class="section-left">
             <img src="images/Automating-Invoicing/10-1-Testing-Repeatedly.png">
@@ -527,7 +524,6 @@
 
 
           <article class="section-center">
-            <p class="space"></p>
             <div class="highlight">
               <p >These looked simple during whiteboarding. But complexity emerged when detailed in medium fidelity.</p>
               <p>We had to - </p>
@@ -677,10 +673,6 @@
             <div class="section-right"> 
             <img src="images/Automating-Invoicing/20-1-Dashboard-Where-Can-Invoice.png" width="100%">
           </div>
-
-          
-
-         
 
           <!-- 
           <div class="section-left">
