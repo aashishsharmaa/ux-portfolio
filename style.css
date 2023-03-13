@@ -60,7 +60,7 @@ h2 {font-size: 24px;}
 .thick {font-weight: 600;}
 
 
-.number-items li{margin-left:40px; padding-left: 10px; padding-top: 1.25rem;}
+.number-items li{margin-left:40px; padding-left: 10px; padding-top: 1.25rem; font-size: 20px;}
 .number-items li:first-child{margin-top: -20px;}
 .number-items li:last-child{padding-bottom: 1.25rem;}
 .bullet-items li{color: #2D4E6C; margin-left:2rem; padding-left: .5rem; padding-top: .5rem; font-size: 20px; font-weight: 400;}
@@ -350,7 +350,7 @@ margin: 0 auto;}
   .highlight{font-size: 20px; padding:1.5rem; background-color:#fff;}
   .highlight-large {font-size: 24px; padding:2rem;}
 
-  p.space{display: none;}
+  /* p.space{display: none;} */
   p{text-align: left;}
 
 
@@ -359,13 +359,14 @@ margin: 0 auto;}
   p.small{font-size: 14px; text-align: center; padding: 1rem 0rem ; color: #587289;}
   p.small-heading {font-size: 13px; margin-bottom: -1rem; font-weight: 400; color: #587289;}
   p.top-heading {font-size: 15px;color: #587289; margin-bottom: -1rem;}
-  h1, h2{font-weight:500;line-height: 140%;}
-  h1 {font-size: 32px; margin-bottom: 1rem;}
-  h2 {font-size: 20px;}
+  h1, h2{font-weight:500;}
+  h1 {font-size: 32px; margin-bottom: 1rem; line-height: 140%;}
+  h2 {font-size: 20px; line-height: 150%;}
   .duration{font-size: 13px;}
   .section-grid h2{font-size: 28px; max-width: 34ch; line-height: 125%; } 
 
-  .bullet-items li{margin-left:2rem; padding-left: .5rem; padding-top: .5rem; font-size: 18px; font-weight: 400;color: #2D4E6C; }
+  .number-items li{margin-left:24px; padding-left: .5rem; padding-top: 1.25rem; font-size: 18px;}
+  .bullet-items li{margin-left:24px; padding-left: .5rem; padding-top: .5rem; font-size: 18px; font-weight: 400;color: #2D4E6C; }
   .bullet-items li:first-child{margin-top: -20px;}
   /*  .bullet-items li{margin-left:12px; font-size: 18px; padding-left: 4px; padding-top: 1.25rem;} */
 
@@ -631,7 +632,7 @@ margin: 0 auto;}
   
   
   .other h1{text-align: center; font-size: 32px; padding-bottom: 6rem;}
-  .section-grid h2{font-size: 32px; max-width: 34ch;}
+  .section-grid h2{font-size: 32px; max-width: 34ch; line-height: 150%;}
   .description{max-width: 48ch;}
   .highlight-large {font-size: 28px; padding:80px;}
   
