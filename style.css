@@ -24,7 +24,10 @@ color: #163959;
 
 .none{display: none;}
 .space8 {margin-bottom: 8rem;}
-.space4 {padding-bottom: 2rem;}
+.space4 {padding-bottom: 4rem;}
+.space2 {padding-bottom: 2rem;}
+.space1 {padding-bottom: 1rem;}
+.space0 {padding-bottom: 0rem;}
 .line {border-bottom: 1px solid #000;}
 .content{padding-top: 4rem; padding-bottom: 4rem;}
 .content img{max-width: 100%; /* filter: drop-shadow(0px 0px 20px rgb(0, 0, 0, .05)); */}
@@ -33,14 +36,16 @@ color: #163959;
 .intro {justify-content: center; align-content: center;}
 
 .intro * {
-  font-family: "Avenir", serif;
+  /* font-family: "Avenir", sans-serif; */
   /* color: #1F3856; */
   text-align: center;}
 
 .intro-hero {padding-top: 4rem;}
 .intro-text {font-size: 1.5vw; font-weight: 200; line-height: 160%;}
 .intro h1{font-size: 6vw; font-weight: 400; line-height: 200%; /* color: #061257; */}
-.text-highlight {color: #327edb; font-weight: 500;} 
+.text-highlight {color: #327edb; font-weight: 500;}
+
+.resume-highlight {font-size: 1.5vw; line-height: 160%; /* border-left: solid 2px #525252; */ /* padding-left: 1.5rem; */}
 
 p{padding-bottom: 1.25rem; font-size: 21px; font-weight:400; color: #2D4E6C; 
   text-align: justify; line-height: 160%;}
@@ -54,22 +59,23 @@ p.small{font-size: 16px; text-align: center; padding: 1rem 0rem ; color: #587289
 
 p.small-heading {font-size: 16px; margin-bottom: -1rem; font-weight: 400; color: #587289;}
 p.top-heading {font-size: 18px;color: #587289; margin-bottom: -1rem;}
-h1, h2{font-weight:500;line-height: 150%;}
-h1 {font-size: 36px; margin-bottom: .5rem;}
+h1, h2{font-weight:600;line-height: 150%;}
+h1 {font-size: 43px; margin-bottom: .5rem;}
 h2 {font-size: 24px;}
+h4 {line-height: 150%;}
 
 .other h1{text-align: center; font-size: 32px; padding-bottom: 4rem;}
 
 
 .duration{font-size: 16px; padding:10px 0px; color: #587289;}
-.description{padding:10px 0px;}
+.description{padding:10px 0px; line-height: 150%;}
 .thick {font-weight: 600;}
 
 
 .number-items li{margin-left:40px; padding-left: 10px; padding-top: 1.25rem; font-size: 20px;}
 .number-items li:first-child{margin-top: -20px;}
 .number-items li:last-child{padding-bottom: 1.25rem;}
-.bullet-items li{color: #2D4E6C; margin-left:2rem; padding-left: .5rem; padding-top: 1rem; font-size: 20px; font-weight: 400;}
+.bullet-items li{color: #2D4E6C; margin-left:2rem; padding-left: .5rem; padding-top: 1rem; font-size: 20px; font-weight: 400; line-height: 150%;}
 .bullet-items li:first-child{margin-top: -20px;}
 .space{height:1rem;}
 .block{padding:0px 0px;}
@@ -82,7 +88,7 @@ h2 {font-size: 24px;}
 .highlight-small {font-size: 18px;}
 .highlight-big {font-size: 22px;/* margin-bottom: 1rem; */}
 .highlight-bold {font-weight: 600;}
-.highlight-large {font-size: 28px; padding:4rem; /* color:#525252; */ background-color:#fff;}
+.highlight-large {font-size: 28px; padding:4rem; /* color:#525252; */ background-color:#fff; line-height: 150%;}
 .highlight-bigger {font-size: 24px;}
 
 
@@ -132,8 +138,6 @@ h2 {font-size: 24px;}
 .measure-text {font-weight: 600; color: #163959; padding-left: 10px; padding-right:10px;}
 
 
-/* .section-grid p{padding-top: 1rem;} */
-
 .section-grid {
   font-size: 21px;
   display: grid;
@@ -142,6 +146,7 @@ h2 {font-size: 24px;}
 
 .section-grid img{max-width:100%;}
 .section-grid h4{font-size: 24px;}
+.section-grid h3{font-size: 30px; font-weight: 600;}
 .section-grid h2{font-size: 32px;}
 
 .card-container{ 
@@ -351,7 +356,11 @@ margin: 0 auto;}
     font-size: 21px;
     display: grid;
     gap: 1.5rem;
+    grid-template-columns: 1fr;
   }
+
+  .section-wide { grid-column-start: 1;
+    grid-column-end: 2;}
 
   .content:first-child{padding-top: 6rem;}
   .duration{padding-top:0px; padding-bottom:10px;font-size: 18px;}
@@ -369,7 +378,7 @@ margin: 0 auto;}
   p.small-heading {font-size: 13px; margin-bottom: -1rem; font-weight: 400; color: #587289;}
   p.top-heading {font-size: 15px;color: #587289; margin-bottom: -1rem;}
   h1, h2{font-weight:500;}
-  h1 {font-size: 32px; margin-bottom: 1rem; line-height: 140%;}
+  h1 {font-size: 36px; font-weight: 700; margin-bottom: 1rem; line-height: 140%;}
   h2 {font-size: 20px; line-height: 150%;}
   .duration{font-size: 13px;}
   .section-grid h2{font-size: 28px; max-width: 34ch; line-height: 125%; } 
@@ -378,8 +387,6 @@ margin: 0 auto;}
   .number-items li{margin-left:24px; padding-left: .5rem; padding-top: 1.25rem; font-size: 18px;}
   .bullet-items li{margin-left:24px; padding-left: .5rem; padding-top: .5rem; font-size: 18px; font-weight: 400;color: #2D4E6C; }
   .bullet-items li:first-child{margin-top: -20px;}
-  /*  .bullet-items li{margin-left:12px; font-size: 18px; padding-left: 4px; padding-top: 1.25rem;} */
-
   
 
   .intro h1{font-size: 32px; font-weight: 600; line-height: 150%; padding-top:1rem; }
@@ -567,7 +574,7 @@ margin: 0 auto;}
   
   
   .other h1{text-align: center; font-size: 32px; padding-bottom: 6rem;}
-  .section-grid h2{font-size: 32px;}
+  /* .section-grid h2{font-size: 32px;} */
   .description{max-width: 48ch;}
   .highlight-large {font-size: 28px; padding:80px;}
   
@@ -644,13 +651,40 @@ margin: 0 auto;}
   /* .intro h2{font-size: 2.5vw; font-weight: 600; line-height: 150%;} */
   
   
-  .other h1{text-align: center; font-size: 32px; padding-bottom: 6rem;}
+  .other h1{text-align: center; font-size:36px; padding-bottom: 6rem;}
   .section-grid h2{font-size: 32px; line-height: 150%;}
   .description{max-width: 48ch;}
   .highlight-large {font-size: 28px; padding:4rem;}
   
 
   /* Section Grids*/
+
+  .resume-grid {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+  }
+
+  .resume-left {
+    grid-column-start: 2;
+    grid-column-end: 6;
+  }
+
+  .resume-right {
+    grid-column-start: 7;
+    grid-column-end: 9;
+  }
+
+  .resume-left-small {
+    grid-column-start: 2;
+    grid-column-end: 5;
+  }
+
+  .resume-right-wide {
+    grid-column-start: 5;
+    grid-column-end: 9;
+  }
+
+
   .section-grid {
     grid-template-columns: repeat(10, 1fr);
   }
@@ -663,6 +697,11 @@ margin: 0 auto;}
   .section-large{
     grid-column-start: 3;
     grid-column-end: 9;
+  }
+
+  .section-large-left{
+    grid-column-start: 3;
+    grid-column-end: 7;
   }
 
   .section-left {
