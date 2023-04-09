@@ -56,12 +56,12 @@ p.small{font-size: 16px; text-align: center; padding: 1rem 0rem ; color: #587289
 
 p.small-heading {font-size: 16px; margin-bottom: -1rem; font-weight: 400; color: #587289;}
 p.top-heading {font-size: 18px;color: #587289; margin-bottom: -1rem;}
-h1, h2{font-weight:600;line-height: 150%;}
+h1, h2{font-weight:500;line-height: 150%;}
 h1 {font-size: 43px; margin-bottom: .5rem;}
 h2 {font-size: 24px;}
 h4 {line-height: 150%;}
 
-.other h1{text-align: center; font-size: 32px; padding-bottom: 4rem; font-weight: 600;}
+.other h1{text-align: center; font-size: 32px; padding-bottom: 4rem; font-weight: 500;}
 
 
 .duration{font-size: 16px; padding:10px 0px; color: #587289;}
@@ -629,7 +629,7 @@ margin: 0 auto;}
   .intro h1{padding-top:4rem; font-size: 48px;  line-height: 150%; }
   .intro-text {font-size: 36px; line-height: 150%; padding-top:01rem; max-width: 26ch;}
   .intro-text-small {font-size: 30px; line-height: 150%;}
-  /* .intro h2{font-size: 2.5vw; font-weight: 600; line-height: 150%;} */
+  
   
   
   .other h1{text-align: center; font-size:36px; padding-bottom: 6rem;}
