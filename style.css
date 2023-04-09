@@ -39,8 +39,8 @@ color: #163959;
   text-align: center;}
 
 .intro-hero {padding-top: 4rem;}
-.intro h1{font-size: 6vw; font-weight: 400; line-height: 200%;}
-.intro-text {font-size: 1.5vw; font-weight: 400; line-height: 160%;}
+.intro h1{font-size: 6vw; font-weight: 600; line-height: 200%;}
+.intro-text {font-size: 1.5vw; font-weight: 500; line-height: 160%;}
 .text-highlight {color: #327edb; font-weight: 500;}
 
 
@@ -56,12 +56,12 @@ p.small{font-size: 16px; text-align: center; padding: 1rem 0rem ; color: #587289
 
 p.small-heading {font-size: 16px; margin-bottom: -1rem; font-weight: 400; color: #587289;}
 p.top-heading {font-size: 18px;color: #587289; margin-bottom: -1rem;}
-h1, h2{font-weight:400;line-height: 150%;}
+h1, h2{font-weight:600;line-height: 150%;}
 h1 {font-size: 43px; margin-bottom: .5rem;}
 h2 {font-size: 24px;}
 h4 {line-height: 150%;}
 
-.other h1{text-align: center; font-size: 32px; padding-bottom: 4rem;}
+.other h1{text-align: center; font-size: 32px; padding-bottom: 4rem; font-weight: 600;}
 
 
 .duration{font-size: 16px; padding:10px 0px; color: #587289;}
@@ -145,7 +145,7 @@ h4 {line-height: 150%;}
 
 .section-grid img{max-width:100%;}
 .section-grid h4{font-size: 24px;}
-.section-grid h3{font-size: 30px; font-weight: 400;}
+.section-grid h3{font-size: 30px; font-weight: 500;}
 .section-grid h2{font-size: 32px;}
 
 .card-container{ 
@@ -388,8 +388,8 @@ margin: 0 auto;}
   .bullet-items li:first-child{margin-top: -20px;}
   
 
-  .intro h1{font-size: 32px; font-weight: 400; line-height: 150%; padding-top:1rem; }
-  .intro-text {font-size: 22px; font-weight: 400; line-height: 150%; padding: 0px 10px;}
+  .intro h1{font-size: 32px; line-height: 150%; padding-top:1rem; }
+  .intro-text {font-size: 22px; line-height: 150%; padding: 0px 10px;}
   .intro-text-small {font-size: 19px; line-height: 150%; padding-top: 1rem;}
 
   
@@ -444,7 +444,7 @@ margin: 0 auto;}
     padding: 0px 40px;
   }
     
-    .intro h1{font-size: 48px; font-weight: 500; line-height: 200%; padding-top:1rem;}
+    .intro h1{font-size: 48px; line-height: 200%; padding-top:1rem;}
     .intro-text {font-size: 36px; line-height: 150%; padding: 0px 40px;}
     .intro-text-small {font-size: 28px; line-height: 150%; padding-top: 2rem;}
     .other h1{text-align: center; font-size: 32px; padding-bottom: 4rem;}
@@ -478,7 +478,7 @@ margin: 0 auto;}
   
   .intro {padding:2rem 0rem;justify-content: center; align-content: center;}
   
-  .intro h1{padding-top:0rem; font-size: 36px; font-weight: 500; line-height: 150%; }
+  .intro h1{padding-top:0rem; font-size: 36px; line-height: 150%; }
   .intro-text {font-size: 27px; line-height: 150%;  padding: 0px 0px; padding-top: 1rem;}
   .intro-text-small {font-size: 22px; line-height: 150%;}
   
@@ -546,8 +546,8 @@ margin: 0 auto;}
   .intro * {text-align: left;}
   .intro {padding:0rem 0rem;justify-content: center; align-content: center;}
 
-  .intro h1{padding-top:4rem; font-size: 48px; font-weight: 500; line-height: 150%; }
-  .intro-text {font-size: 36px; line-height: 150%; padding-top:01rem; font-weight: 400; max-width: 26ch;}
+  .intro h1{padding-top:4rem; font-size: 48px;  line-height: 150%; }
+  .intro-text {font-size: 36px; line-height: 150%; padding-top:01rem; max-width: 26ch;}
   .intro-text-small {font-size: 30px; line-height: 150%;}
 
   
@@ -626,8 +626,8 @@ margin: 0 auto;}
   .intro * {text-align: left;}
   .intro {padding:0rem 0rem;justify-content: center; align-content: center;}
 
-  .intro h1{padding-top:4rem; font-size: 48px; font-weight: 500; line-height: 150%; }
-  .intro-text {font-size: 36px; line-height: 150%; padding-top:01rem; font-weight: 400; max-width: 26ch;}
+  .intro h1{padding-top:4rem; font-size: 48px;  line-height: 150%; }
+  .intro-text {font-size: 36px; line-height: 150%; padding-top:01rem; max-width: 26ch;}
   .intro-text-small {font-size: 30px; line-height: 150%;}
   /* .intro h2{font-size: 2.5vw; font-weight: 600; line-height: 150%;} */
   
