@@ -42,7 +42,7 @@ color: #163959;
 .intro h1{font-size: 6vw; font-weight: 400; line-height: 200%;}
 .intro-text {font-size: 1.5vw; font-weight: 400; line-height: 160%;}
 .text-highlight {color: #327edb; font-weight: 500;}
-.resume-highlight {font-size: 1.5vw; line-height: 160%;}
+
 
 p{padding-bottom: 1.25rem; font-size: 21px; font-weight:400; color: #2D4E6C; 
   text-align: justify; line-height: 160%;}
@@ -80,6 +80,8 @@ h4 {line-height: 150%;}
 .highlight{font-size: 20px; padding:2rem; background-color:#fff;}
 .highlight-content{margin-bottom:2rem; padding:2rem; color:#525252; background-color:#E7F2FE; border: 2px solid #0096FF; border-radius: 10px;}
 .highlight-content:last-child{margin-bottom:0px;}
+
+.paper {font-size: 20px; padding:3rem; background-color:#fff;}
 
 .line-content { margin-bottom: -1.25rem;}
 .highlight-small {font-size: 18px;}
