@@ -39,8 +39,8 @@ color: #163959;
 
 .intro-hero {padding-top: 4rem;}
 .intro h1{font-size: 6vw; font-weight: 500; line-height: 200%;}
-.intro-text {font-size: 1.5vw; font-weight: 500; line-height: 160%;}
-.text-highlight {color: #327edb; font-weight: 500;}
+.intro-text {font-size: 1.5vw; font-weight: 400; line-height: 160%;}
+.text-highlight {color: #327edb; font-weight: 400;}
 
 
 p{padding-bottom: 1.25rem; font-size: 21px; font-weight:400; color: #2D4E6C; 
